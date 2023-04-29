@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulaire d'enquête</title>
+	<style type="text/css">
+		body{
+			background: url(img/blog/blog-4.jpg) no-repeat 50% 50% ;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.total{
+			background-color: rgba(50, 00, 270, 0.9);
+			width: 800px;
+			height: 1160px;
+			margin-left: 270px;
+		}
+		body h1{
+			font-family: sans-serif;
+			font-size: 43px;
+			text-align: center;
+			padding-top: 10px;
+			color: white;
+		}
+		body h2{
+			text-align: center;
+			color: white;
+		}
+		.total #champ{
+			width: 680px;
+			padding: 7px;
+			padding-left: 10px;
+			margin-left: 50px;
+		}
+		.total label{
+			margin-left: 50px;
+			font-weight: bold;
+			color: white;
+			font-size: 17px;
+		}
+		.total #part{
+			margin-left: 50px;
+			margin-bottom: 15px;
+		}
+		.total #bar{
+			margin-left: 50px;
+			margin-bottom: 10px;
+		}
+		.total #champ1{
+			width: 650px;
+			padding: 50px;
+			padding-left: 10px;
+			margin-left: 50px;
+		}
+		.total button{
+			margin-left: 50px;
+			width: 715px;
+			padding: 10px;
+			background-color: lawngreen;
+			color: white;
+			font-size: 15px;
+			font-weight: bold;
+
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Formulaire d'enquête freeCodeCamp</h1>
+	<h2>Merci d'avoir pris le temps de nous aider à améliorer la plateforme</h2>
+	<form>
+		<div class="total">
+			<br><br>
+			<label>Nom</label><br>
+			<input id="champ" type="text" placeholder="Entrer votre nom"><br><br>
+			<label>E-mail</label><br>
+			<input id="champ" type="email" placeholder="Entrer votre E-mail"><br><br>
+			<label>Age(optionnel)</label><br>
+			<input id="champ" type="age" placeholder="Entrer votre Age"><br><br>
+			<label>Quelle option décrit le mieux votre rôle actuel ?</label><br>
+			<input id="champ" type="" placeholder="Selectionner le rôle actuel"><br><br>
+			<label>Recommenderiez-vous freeCodeCamp à un ami ?</label><br><br>
+			<input id="part" type="radio">Absolument <br>
+			<input id="part" type="radio">Peut être <br>
+			<input id="part" type="radio">Pas certain <br><br>
+			<label>Quelle est votre fonctionnalité préférée de freeCodeCamp ?</label><br>
+			<input id="champ" type="text" placeholder="Sélectionner une option"><br><br>
+			<label>Que souhaiteriez-vous voir amélioré ?(cochez toutes les cases)</label><br><br>
+			<input id="bar" type="checkbox">Projets frontaux<br>
+			<input id="bar" type="checkbox">Projets principaux<br>
+			<input id="bar" type="checkbox">Visualisation de données<br>
+			<input id="bar" type="checkbox">Défis<br>
+			<input id="bar" type="checkbox">Communauté open source<br>
+			<input id="bar" type="checkbox">Salles d'aide Gittor<br>
+			<input id="bar" type="checkbox">Videos<br>
+			<input id="bar" type="checkbox">Rencontre de la ville<br>
+			<input id="bar" type="checkbox">Wiki<br>
+			<input id="bar" type="checkbox">Forum<br>
+			<input id="bar" type="checkbox">Des corps supplémentaires<br><br>
+			<label>Des commentaires ou des suggetions?</label><br>
+			<input id="champ1" type="text" placeholder="Entrez votre commentaire ici"><br><br><br>
+			<button>Soumettre</button>
+		</div>
+	</form>
+</body>
+</html>

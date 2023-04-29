@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CL-Shop : Boutique en ligne</title>
+
+	<!-- Liaison fichier Bootstrap -->
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container-fluid">
+
+		<!-- debut menu de navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#050A30">
+		  <div class="container-fluid">
+		    <a class="navbar-brand text-white" href="#">CODINGLIFE</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link text-white" aria-current="page" href="">ACCEUIL</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="ibra_blog.html">BLOG</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            BOUTIQUE
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="shop.html">PRODUITS</a></li>
+		            <li><a class="dropdown-item" href="electronic.html">ELECTRONIQUE</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="#">INSCRIPTION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="conexion.html">CONEXION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="#">A PROPOS</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- Fin menu de navigation -->
+
+		<!-- Debut caroussel -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/caroussel/carousel-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/caroussel/carousel-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/caroussel/carousel-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+		<!-- Fin caroussel -->
+
+		<!-- Debut section titre -->
+		<div class="card mt-4 p-3" style="background-color: #050A30;">
+			<div class="card-body bg-danger w-50 m-auto" style="border-radius: 15px;">
+				<h3 class="card-title text-center text-white text-uppercase fs-3">Toout a commencé pour une idée simple</h3>
+				<p class="card-text text-center text-white">Offrir des produits de qualité et bien conçus que je voulais moi-même.</p>
+			</div>
+		</div>
+		<!-- Fin section titre --> 
+
+		<!-- Debut section type de produit -->
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+           <div class="col">
+             <div class="card h-100">
+               <img src="img/pexel/pexel10.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title text-center text-primary fs-4 text-uppercase fw-bold">sectionn appareils photos</h3>
+               </div>
+               <div class="card-footer">
+                <button class="btn btn-block btn-outline-danger text-uppercase w-100">En savoir plus</button>
+               </div>
+             </div>
+           </div>
+
+           <div class="col">
+             <div class="card h-100">
+               <img src="img/pexel/pexel14.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title text-center text-primary fs-4 text-uppercase fw-bold">section pour chaussures</h3>
+               </div>
+               <div class="card-footer">
+                <button class="btn btn-block btn-outline-danger text-uppercase w-100">En savoir plus</button>
+               </div>
+             </div>
+           </div>
+
+           <div class="col">
+             <div class="card h-100">
+               <img src="img/a1.jpeg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title text-center text-primary fs-4 text-uppercase fw-bold">section pour femmes</h3>
+               </div>
+               <div class="card-footer">
+                <button class="btn btn-block btn-outline-danger text-uppercase w-100">En savoir plus</button>
+               </div>
+             </div>
+           </div>
+         </div>
+		<!-- Fin section type de produit -->
+
+		<!-- Debut section contact -->
+		<div class="card mt-4 container-fluid">
+			<div class="row p-4" style="background-color: darkblue;">
+				<div class="col text-white fw-bold">
+					<h3>Nous Joindre Maintenant</h3>
+				</div>
+				<div class="col ">
+					<button class="btn btn-outline-success">+224 620 87 10 38</button>
+				</div>
+			</div>
+		</div>
+		<!-- Fin section contact -->
+
+		<!-- Debut section des produits pour chaussures -->
+		<di class="card container-fluid p-1 mt-4 bg-dark">
+			<h2 class="text-center text-primary fw-bold text-uppercase">section des chaussures</h2>
+		</di>
+
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/pexel/pexel4.jpg" style="object-fit: cover; height: 468px;" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <h3 class="card-title text-center fs-3 fw-bold">Nike</h3>
+		        <p class="card-text text-center fs-4 text-danger">Prix : 180 000 FG</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/pexel/pexel3.jpg" style="object-fit: cover; height: 468px;" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <h3 class="card-title text-center fs-3 fw-bold">Eazy 350</h3>
+		        <p class="card-text text-center fs-4 text-danger">Prix : 190 000 FG</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+		      </div>
+		    </div>
+		  </div>
+           <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/pexel/pexel9.jpg" style="object-fit: cover; height: 468px;" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <h3 class="card-title text-center fs-3 fw-bold">Jordan 5</h3>
+		        <p class="card-text text-center fs-4 text-danger">Prix : 280 000 FG</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+		      </div>
+		    </div>
+		  </div>
+
+            <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/pexel/pexel8.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <h3 class="card-title text-center fs-3 fw-bold">Eazy 360</h3>
+		        <p class="card-text text-center fs-4 text-danger">Prix : 200 000 FG</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Fin section des produits pour chaussures -->
+
+		<!-- Debut section produits pour appareils photos -->
+				<di class="card container-fluid p-1 mt-4 bg-dark">
+					<h2 class="text-center text-primary fw-bold text-uppercase">section des appareils photos</h2>
+				</di>
+
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+				  <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel5.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Nikon</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 6 000 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel6.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Nikon</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 5 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+		           <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel2.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Samsung</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 8 000 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+		            <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel1.jpg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Samsung</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 5 000 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		<!-- Fin section produits pour appareils photos -->
+
+		<!-- Debut section new letter -->
+		<div class="card mt-4 container-fluid">
+			<div class="row p-4" style="background-color: darkblue;">
+				<div class="col text-white fw-bold">
+					<h3 class="text-white fw-bold">SOUSCRIRE A NOTRE NEWLETTER</h3>
+				</div>
+				<div class="col ">
+					<input class="p-2 w-50" type="text" placeholder="Entrer votre E-mail">
+					<button class="btn btn-outline-success fw-bold">Enoyer</button>
+				</div>
+			</div>
+		</div>
+		<!-- Fin section new letter -->
+
+		<!-- Debut section produits pour femmes -->
+				<di class="card container-fluid p-1 mt-4 bg-dark">
+					<h2 class="text-center text-primary fw-bold text-uppercase">section pour femmes</h2>
+				</di>
+
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+				  <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/a5.jpeg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Ensemble</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/a6.jpeg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Chaine 1</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 200 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+		           <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/a7.jpeg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Chaine 2</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix :150 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+
+		            <div class="col-md-3">
+				    <div class="card h-100">
+				      <img src="img/a8.jpeg" style="object-fit: cover; height: 400px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Chaine 3</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 130 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		<!-- Fin section produits pour femmes -->
+
+		<!-- Debut section produits pour nouveaux produits -->
+				<di class="card container-fluid p-1 mt-4 bg-dark">
+					<h2 class="text-center text-primary fw-bold text-uppercase">nouveaux produits</h2>
+				</di>
+
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+				  <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/pc.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold"> PC Dell</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 4 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/v15.jpeg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Lamborghini spider</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 1 800 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div>
+
+		           <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/v16.jpeg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Audi</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 1 600 000 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div>
+
+		            <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/v17.jpeg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Toyota</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 1 000 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel7.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Galaxy s22</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 11 000 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div> 
+
+				 <div class="col-md-2">
+				    <div class="card h-100">
+				      <img src="img/pexel/pexel15.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h3 class="card-title text-center fs-3 fw-bold">Iphone X</h3>
+				        <p class="card-text text-center fs-4 text-danger">Prix : 500 000 FG</p>
+				      </div>
+				      <div class="card-footer bg-dark">
+				      	<button class="btn btn-block btn-primary w-100">Commender</button>
+				      </div>
+				    </div>
+				  </div>
+
+
+				</div>
+		<!-- Fin section produits pour nouveaux produits -->
+
+		<!-- Debut section temoignages des clients -->
+		<div class="row contenair container-fluid">
+			<div class="card bg-dark p-1 mt-4">
+				<h2 class="text-center text-danger fw-bold text-uppercase">temoignages de nos clients</h2>
+			</div>
+
+			<div class="col-6 mt-1">
+				<div class="card mb-3" style="max-width: 100%;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="img/user3.jpg" class="img-fluid rounded-start" alt="...">
+				    </div>
+
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h2 class="card-title text-uppercase fw-bold">christine yono</h2>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-6 mt-1">
+				<div class="card mb-3" style="max-width: 100%;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="img/user4.jpg" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h2 class="card-title text-uppercase fw-bold">christ yono</h2>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+	    <!-- Fin section temoignages des clients -->
+
+	    <!-- Debut pied de page -->
+	      <div class="container-fluid mt-3 bg-dark">
+	      	<footer class="py-5">
+	      	   <div class="row">
+	      	     <div class="col-4">
+	      	       <h3 class="text-primary text-uppercase">Reseaux sociaux</h3>
+	      	       <ul class="nav flex-column">
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Youtube</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Linked In</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitter</a></li>
+	      	       </ul>
+	      	     </div>
+
+	      	     <div class="col-3">
+	      	       <h3 class="text-primary">Menus</h3>
+	      	       <ul class="nav flex-column">
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Acceuil</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Boutique</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Electronique</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Blog</a></li>
+	      	         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Nous Contacter</a></li>
+	      	       </ul>
+	      	     </div> 
+
+	      	     <div class="col-4 offset-1">
+	      	       <form>
+	      	         <h3 class="text-primary">Subscribe à notre newsletter</h3>
+	      	         <p class="text-white">Veiller s'inscrire à notre newletter pour ne rien rater</p>
+	      	         <div class="d-flex w-100 gap-2">
+	      	           <label for="newsletter1" class="visually-hidden">Email address</label>
+	      	           <input id="newsletter1" type="text" class="form-control" placeholder="Entrer votre adresse E-mail">
+	      	           <button class="btn btn-primary" type="button">Souscrire</button>
+	      	         </div>
+	      	       </form>
+	      	     </div>
+	      	   </div>
+	      	 </footer>
+	      </div>
+	    <!-- Fin pied de page -->
+	</div>	
+	
+</body>
+</html>

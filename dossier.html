@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Doc</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<main>
+	<body> 
+		<!-- creation du menu laterel -->
+		<div id="menu-lateral2">
+			<div>
+				<!-- Tableu de bord du menu lateral -->
+				<h4>HTML documentation</h4>
+				<ul>
+					<li><a href="#ancre1" class="active">Introduction</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre2">Definition</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre3">Structure d'un document</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre4">Les elements</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre5">Les attributs</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre6">Les balises</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre7">Les titres</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre8">Les tableaux HTML</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre9">Les formulaires</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre10">Afficher son document en HTML 5 dans un navigateur</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre11">Les commentaires</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre12"> Les liens internes et externes</a></li>
+				</ul>
+				<ul>
+					<li><a href="#ancre13">Les listes imbriquées</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- fin du menu latral -->
+		<!-- debut de la section des details -->
+		<div class="detail">
+			<div class="intro">
+				<h4 id="ancre1">Introduction</h4>
+				<p>Le HTML est le langage bien célèbre du web. Il est la base constitutive de toutes les pages web qui existent. C'est un peu grâce à lui que le réseau des réseaux s'est développé publiquement. Car le HTML est un langage très simple qui permet à chacun, moyennant quelques petites heures d'apprentissage, de diffuser des documents au monde entier. On a en fait pas encore trouvé plus simple, et les langages ressemblant à HTML se sont multipliés comme la peste, mais pour le bonheur de nombreuses personnes.
+
+Si HTML a pu sembler abscons à certains, il a montré de réelles capacités au fil du temps. Il a évolué jusqu'à aboutir à la version 5 qui fait beaucoup parler d'elle. HTML a été complété par d'autres technologies comme CSS, qui permet de gérer l'aspect graphique de la page, ou encore SVG pour les images vectorielles. HTML et CSS sont sans conteste les plus utilisées par toutes les personnes qui font de l'édition électronique, quelle qu'en soit la forme.
+Les auteurs
+
+Ce document a été initié par Cédric Gémy sur la base d'un document premièrement réalisé en 2001 dans le cadre d'un enseignement dispensé à l'Université de Rennes2 et de formations professionnelles en entreprise. Cependant de nombreuses modifications ont été apportées de manière à ce qu'il soit cohérent par rapport aux évolutions du langage. 
+Ce qui sera et ne sera pas dans ce livre
+
+L'objectif de ce livre sera donc de fournir les bases de compréhension et d'utilisation du langage HTML, particulièrement sa version 5, de manière à permettre une intégration web cohérente, de qualité, correspondant au maximum aux recommandations techniques. Nous nous concentrerons ici sur le côté communicationnel et contenu. Nous verrons les bases du langage, la structuration des pages, aurons une approche sémantique et verrons la majorité des balises courantes qui permettent d'organiser correctement la page.
+
+Nous ne traiterons pas des problématiques spécifiques liées à l'interactivité. Ainsi les possibilités de glisser-déposer, de gestion de base de donnée, de géolocalisation ou dessin grâce à la balise Canvas ne seront pas montrées ici, car elles nécessitent des connaissances particulières en  JavaScript plus ou moins importantes selon les cas. Elles reposent donc sur des compétences qui ne sont pas celles de l'auteur de contenu ou même de l'intégrateur. Un autre ouvrage s'occupera de ce sujet et nous vous invitons à continuer votre lecture si cela vous attire ou vous est nécessaire.
+</p><br>
+				<h4 id="ancre2">Definition</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p><br>
+
+				<h4 id="ancre3">Strucure d'un document</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+				
+				<h4 id="ancre4">Les elements</h4>
+				<p>Les elements tout d'abord vont nous servir à definir des objets dans une page en HTML. Ce sont les elments, les termes, les balises et attributs notre. Grâce aux elements, nous allons pouvoir definirun chevron. la balise fermante possède en plus un slash qui précède le (h1,h2,h3,h4,h5,h6) ou un lien(element a) <br>Les elements sont constitués de balises dans la majorité des cas. Il y a trois termes dont vous devez absolument comprendre le sens <br> Elément est constitué d'une paire de balises:une balise ouvrante et une balise fermante,paragraphe (élément p), des titres d'importance diverse (élément h)</p><br>
+
+				<h4 id="ancre5">Les attributs</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+				
+				<h4 id="ancre6">Les balises</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+				
+				<h4 id="ancre7">Les titres</h4>
+				<p>il existe six niveaux hiérarchiques de titres (“heading” en anglais) définis par les éléments h1, h2, h3, h4, h5 et h6 qui vont nous permettre d’organiser le contenu dans nos pages.
+
+            Bon à savoir : « h » signifie « heading », soit l’équivalent du mot « titre » en français. Les éléments en HTML portent souvent l’initiale de ce qu’ils représentent, en anglais.
+
+            L’élément h1 représente un titre principal dans notre page ou dans une section de page et, à ce titre, nous n’allons pouvoir utiliser qu’un seul élément h1 par page (ou par section de page, nous reviendrons sur ce concept plus tard).<br>Ici, je tiens d’ores-et-déjà à attirer votre attention sur un point : si vous déclarez plusieurs titres h1 dans votre page, ceux-ci s’afficheront bien : il n’y aura aucun blocage au niveau de l’éditeur ou du navigateur. Cependant, rappelez-vous une nouvelle fois que le HTML est un langage de sémantique et que sa bonne utilisation repose donc sur des règles et un ensemble de bonnes pratiques.
+
+            Dans le cas présent, utiliser plusieurs h1 serait aberrant car le h1 est censé représenter le titre principal de la page.
+
+            En revanche, nous allons pouvoir utiliser autant de titres de niveau h2, h3 etc. que l’on souhaite dans notre page. Théoriquement, si nos pages sont bien construites, nous ne devrions que rarement dépasser le niveau de titre h3.  </p><br>
+
+				<h4 id="ancre8">Les tableaux</h4>
+				<p>Les tableaux sont parmi les éléments les moins bien compris du HTML. Pris entre les personnes qui les utilisent pour structurer la mise en page de leur contenu (au lieu d'utiliser du CSS) et celles qui ne veulent pas en entendre parler, il y a évidemment un fossé.
+
+            Dans tous les  cas, le code permettant de créer un tableau est le même :
+
+<table>
+</table>
+
+Tableaux et mise en page
+
+Cette mésentente est donc liée à l'histoire du web. Lors de l'essor des sites web à la fin des années 1990, le CSS n'était pas encore utilisé. Avec l'accroissement de la taille des sites et des informations à diffuser, la mise en page sur 3 colonnes s'est généralisée, et à cette époque, le tableau était le seul moyen d'y arriver alors même qu'il n'avait pas été prévu pour ça. Pour ceux qui ont pratiqué ces techniques, on se souviendra de la complexité tant en terme de structuration de la page, qu'en terme de quantité de code produit, pour arriver à un résultat simple, somme toute. Le CSS a donc réellement apporté sa pierre et doit maintenant être utilisé exclusivement pour la mise en page. La recommandation HTML5 mentionne : "Tables should not be used as layout aids". Les tableaux ne doivent pas être utilisés comme des moyens de mise en page, et si cela doit être le cas pour une raison ou une autre, par exemple, un site ancien qui serait trop long à refaire, l'attribut role avec la valeur presentation devra lui etre assigné (presentation est une valeur WAI-ARIA enlevant le caractère sémantique de l'interprétation).
+
+<table role="presentation">
+</table>
+
+On remarquera aussi que la recommandation incite les navigateurs à interpréter les attributs border="0" et cellspacing="0" cellapadding="0" comme des attributs définissant des propriétés de tableaux de mise en page, la bonne pratique étant d'utiliser le CSS pour de tels effets.
+
+À l'inverse, l'utilisation de balise permettant de sémantiser classera le tableau dans la catégorie des tableaux de données : caption, thead, headers, scope.
+
+Quoi qu'il en soit, réservez à l'heure actuelle l'utilisation de tableaux à la réalisation de tableaux, comme vous le feriez dans un traitement de texte : en général, il s'agit de présenter des données sous forme de grille, les éléments en ligne étant quantifiés par les colonnes ou inversement. Un exemple simple et courant peut être une liste de produit contenant des colonnes quant au poids, au prix, à la couleur, à la disponibilité en stock.
+
+Le tableau est donc une sorte d'enrichissement de liste (qui ne contient qu'une information), cet enrichissement étant provoqué par le rattachement d'informations régulières et organisées à cette liste.
+Décrire un tableau
+
+Comme on vient de le voir, il va falloir apporter un peu d'attention à la description de notre tableau. Nous proposons d'avoir recours à l'élément caption prévu explicitement pour cela. Il peut contenir différents éléments permettant de décrire le texte. <br>
+
+Définir les titres de colonnes
+
+Une fois le tableau mis en place, on peut alors commencer à passer à son contenu. En général, il s'agira de faire apparaître en haut du tableau les intitulés pour chaque colonne de manière à faciliter la lecture. On utilisera alors une combinaison de 3 éléments :
+
+    thead pour encadrer la ligne informative ;
+    tr pour créer la ligne ;
+    th pour renseigner le titre de chaque colonne.
+
+<thead>
+   <tr>
+      <th>Titre livre</th>
+      <th>Téléchargeable</th>
+      <th>Prix TTC</th>
+   </tr>
+</thead>
+
+En HTML5, il est possible d'omettre les balise de fermeture pour les thead, th et les tr
+Ajouter les données au tableau
+
+L'ajout des informations dans le tableau ne sera pas plus compliqué que l'ajout de la première ligne. Les éléments utilisés seront alors :
+
+    tbody pour encadrer l'ensemble des données ;
+    tr pour chaque ligne de donnée ;
+    td pour chaque donnée proprement dite, en général associée à une colonne définie ;
+    th pour le cas particulier des cellules de début de ligne à mettre en évidence.
+
+Ainsi notre liste de livre en vente qui pourrait se présenter sous la forme :
+
+<ul>
+    <li>Germinal</li>
+    <li>Du contrat social</li>
+    <li>Les misérables</li>
+</ul>
+
+va maintenant devenir
+
+<tbody>
+   <tr>
+      <td>Germinal</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Du contrat social</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Les misérables</td>
+      <td></td>
+      <td>9 €</td>
+   </tr>
+</tbody>
+
+ Ainsi construit, le navigateur saura identifier les différentes relations entre les données. Il comprendra qu'à l'horizontale les éléments sont de nature associée et qu'à la verticale, la nature est identique.
+La dimension des colonnes est automatiquement ajustée à la taille du contenu le plus grand. Cela peut poser des difficultés dans le cas de colonnes dont la quantité d'information est disparate. L'utilisation de la propriété CSS width sur td impose une largeur de colonne et provoque des renvois à la ligne automatique dans les cellules, si nécessaire. 
+
+À noter que l'élément tbody peut être répété plusieurs fois pour générer des regroupements plus fort au sein du tableau et que tfoot, définissant un pied de tableau, beaucoup moins utilisé que thead mais qui en reprend souvent les informations, peut s'avérer utile dans les longs tableaux.
+Fusionner des lignes ou des colonnes
+
+Les éléments que nous avons vus jusqu'à présent permettent de réaliser des tableaux simples parfaitement réguliers dans leurs présentations. Or, il n'est pas rare de devoir regrouper certaines informations en ligne ou en colonne. Dans ce cas, l'utilisation de :
+
+    colspan pour regrouper sur la ligne ;
+
+    rowspan pour fusionner en colonne.
+
+
+permettra d'améliorer la structure et la rendre plus explicite si besoin.
+
+Colspan et rowspan prennent tous deux une valeur chiffrée entière correspondant au nombre de cellules à fusionner. Ainsi, colspan="2" fusionnera la colonne en cours avec la suivante.
+
+Par exemple, modifions le tableau précédent en conséquence et tentons d'ajouter une première ligne d'entête qui regroupera Téléchargeable et Prix sous une colonne générale En Vente.
+
+<table border="1">
+
+     <thead>
+     <tr>
+       <th />
+       <th>En vente</th>
+       <th />
+     </tr>
+     <tr>
+       <th>Titre livre</th>
+       <th>Téléchargeable</th>
+       <th>Prix TTC</th>
+     </tr>
+   </thead>
+    <tbody>
+   <tr>
+      <td>Germinal</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Du contrat social</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Les misérables</td>
+      <td></td>
+      <td>9 €</td>
+   </tr>
+</tbody>
+</table>
+
+ce qui affiche :
+
+  
+
+     
+     
+       
+       	En vente
+       	
+     
+
+     
+       Titre livre
+       	Téléchargeable
+       	Prix TTC
+     
+
+   
+    
+   
+      Germinal
+      	epub
+      	2,5 €
+   
+
+   
+      Du contrat social
+      	epub
+      	2,5 €
+   
+
+   
+      Les misérables
+      	
+
+      	9 €
+   
+
+
+  
+
+Nous ajoutons ici explicitement des bordures en attributs HTML de manière à bien montrer l'action de la fusion, mais l'utilisation de CSS serait préférable.
+
+Changeons maintenant cette base pour fusionner la ligne En Vente :
+
+<table border="1">
+
+     <thead>
+     <tr>
+       <th />
+       <th colspan="2">En vente</th>
+     </tr>
+     <tr>
+       <th>Titre livre</th>
+       <th>Téléchargeable</th>
+       <th>Prix TTC</th>
+     </tr>
+   </thead>
+    <tbody>
+   <tr>
+      <td>Germinal</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Du contrat social</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Les misérables</td>
+      <td></td>
+      <td>9 €</td>
+   </tr>
+</tbody>
+</table>
+
+ce qui affiche :
+
+  
+
+     
+     
+       
+       	En vente
+       
+
+     
+       Titre livre
+       	Téléchargeable
+       	Prix TTC
+     
+
+   
+    
+   
+      Germinal
+      	epub
+      	2,5 €
+   
+
+   
+      Du contrat social
+      	epub
+      	2,5 €
+   
+
+   
+      Les misérables
+      	
+
+      	9 €
+   
+
+
+  
+
+Pour arriver à ce résultat, nous avons :
+
+    Ajouter l'attribut colspan à la première cellule à fusionner ;
+    Attribuer la valeur 2 à cet attribut pour indiquer le nombre de cellule à modifier ;
+    Supprimer le th suivant de manière à ce que le nombre de cellules soit toujours le même implicitement : la première vide, puis la seconde sur une étendue de 2 soient au total 3.
+
+Il est important de noter que le nombre de colonnes doit rester cohérent d'une ligne à l'autre de manière à garder une bonne organisation du tableau. Il appartient à l'intégrateur de porter cette attention lors de l'utilisation des attributs rowspan et colspan. En cas d'erreur, des colonnes ou lignes peuvent être décalées, voire ajouter si le nombre total est différent d'une ligne à l'autre.
+
+Pour améliorer le résultat et sa pertinence, il convient d'attribuer ces propriétés à la première cellule engageant la fusion.
+
+La même opération peut être effectuée avec les lignes par exemple en fusionnant la cellule Titre livre avec sa supérieure :
+
+<table border="1">
+
+     <thead>
+     <tr>
+       <th rowspan="2">Titre livre</th>
+       <th>En vente</th>
+       <th />
+     </tr>
+     <tr>
+       <th>Téléchargeable</th>
+       <th>Prix TTC</th>
+     </tr>
+   </thead>
+    <tbody>
+   <tr>
+      <td>Germinal</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Du contrat social</td>
+      <td>epub</td>
+      <td>2,5 €</td>
+   </tr>
+   <tr>
+      <td>Les misérables</td>
+      <td></td>
+      <td>9 €</td>
+   </tr>
+</tbody>
+</table>
+
+ce qui affiche :
+
+  
+
+     
+     
+        Titre livre
+       	En vente
+       	
+     
+
+     
+       Téléchargeable
+       	Prix TTC
+     
+
+   
+    
+   
+      Germinal
+      	epub
+      	2,5 €
+   
+
+   
+      Du contrat social
+      	epub
+      	2,5 €
+   
+
+   
+      Les misérables
+      	
+
+      	9 €
+   
+
+
+  
+
+ Ici, plusieurs actions ont aussi été effectuées :
+
+    Déplacement du texte Titre livre dans la première ligne d'entête ;
+    Ajout de l'attribut rowspan ;
+    Affectation de la valeur 2 à rowspan.
+
+Il existe bien sûr d'autres éléments et attributs associés aux tableaux, mais ils sont bien moins fréquents et ceux-ci permettent déjà de réaliser de grandes choses.
+MODIFIER
+</p><br>
+
+				<h4 id="ancre9">Les formulaires</h4>
+				<p>Les formulaires permettent une interaction avec l'utilisateur. Ils lui permettront de saisir des données que nous pourrons ensuite traiter ou mémoriser. Des cas fréquents sont :
+
+    formulaire d'inscription
+    formulaire de connexion
+    formulaire de recherche
+    formulaire de contact
+    demande de devis
+    formulaire administratif en ligne...
+
+Les formulaires sont constitués habituellement de plusieurs éléments :
+
+    balise form ;
+    balises input ;
+    un bouton d'envoi.
+
+Il peut bien sûr y avoir des variantes ou d'autres éléments. Ainsi, un formulaire de base ressemblerait à ceci :
+
+<form>
+   <input type="text" />
+   <input type="submit" />
+</form>
+
+Formulaire HTML5 de base
+
+On remarquera que la balise form contient par habitude l'ensemble des input, même si HTML5 permet de s'affranchir de cette contrainte.
+
+Le HTML5 révolutionne peu les balises de formulaire, en revanche il a grandement accru le nombre de types disponibles de manière à fiabiliser et faciliter les saisies ne particulier sur les périphériques mobiles.
+Utiliser un champ de formulaire en dehors du formulaire
+
+Pour les mises en page un peu complexe, il deviendra parfois difficile de trouver une cohérence entre les nécesités de validation de code et les besoins graphiques. Chaque champ de formulaire devant être introduit dans une balise form, la contrainte est assez forte sur les imbrications et conduit facilement à une multiplications des formulaires dans la page.
+
+Le HTML5 a introduit la possibilité d'outre-passer cette contrainte en autorisant un champ à être placé en dehors du formulaire. Pour cela, le formulaire devra posséder un identifiant et le champ aura un attribut form qui se référera à cet id.
+
+<form id="contact" action="" method="get">
+  <input type="text" />
+  <input type="submit" />
+</form>
+  
+ <p>Ici un champ en dehors du formulaire</p>
+ <input type="text" form="contact"/>
+
+Modifier le texte qui apparaît dans un champ
+
+Pour modifier le texte qui sera affiché par défaut dans le champ, l'attribut value peut être utilisé. Il doit être suivi en valeur du texte voulu.
+
+<input type="texte" value="fmfr"/>
+<input type="submit" value="Envoyer"/>
+<input type="reset" value="Remettre à zéro"/>
+
+En ce qui concerne le champs de saisie, l'utilisateur pourra effacer (ou non) et modifier le texte à moins que celui-ci ne soit bloqué avec l'attribut disabled. En revanche, l'utilisateur ne pourra pas agir sur la valeur des boutons.
+Pour afficher un texte par défaut qui s'efface automatiquement lorsque l'utilisateur commence à saisir, utilisez l'attribut placeholder.
+Ajouter un texte avant le champ
+
+Les champs sont souvent précédés d'un petit texte mentionnant l'information que l'on souhaite voir saisie. La balise Label est dédiée spécifiquament à cette tâche.
+
+<p>
+ <label>Nom  </label>
+  <input type="text" />
+</p>
+<p>
+ <label>Prénom  </label>
+  <input type="text" />
+</p> 
+
+Définir le nombre de caractère d'un champ de saisie
+
+Dans de nombreux cas, il peut être intéressant de limiter la saisie de l'utilisateur à une certaine longueur. Pour spécifier cette longueur, deux choix sont disponibles:
+
+    l'attribut size qui définit la taille du champs dans la page en nombre de caractère, mais cela n'empêche pas l'utilisateur d'en saisir plus
+    l'attribut maxlength qui permet de limiter la saisie à un nombre de caractère définir
+
+Dans l'exemple suivant, un premier code utilise size pour définir la dimension du champ. Le second champ ne contient pas cette attribut et a donc une  taille par défaut, imposée par le navigateur. On lui a en revanche donner une longueur maximale de 5 caractère en écriture. Si bien que dans la dernière capture, nous sommes bloqués dans l'écriture du mot "Marguerite".
+
+<p>
+ <label>Nom  </label>
+  <input type="text" size="5" placeholder="Dupont"/>
+</p>
+<p>
+ <label>Nom  </label>
+  <input type="text" maxlength="5" placeholder="Dupont"/>
+</p> 
+
+Utilisation de Maxlength et size en HTML5
+Ce type de possibilité est fréquemment utilisé par exemple pour les mots de passe, de nombreux sites demandant à ce que celui-ci fasse un certain nombre de caractère (par exemple entre 8 et 13).
+Nouveaux types de saisies prédéfinis
+
+Il existe donc à présent de nombreux nouveaux types qui viennent compléter les anciens types text, hidden et password, chekbox et radio. Les principaux sont :
+
+    number : pour renseigner une valeur numérique.
+    email : pour accueillir des adresses mails valident.
+    url : pour accueillir des liens hypertextes.
+    color : pour accueillir une couleur au format héxadécimal (exemple :  #eeaaff). Certains navigateurs affichent une palette pour inviter l'internaute à sélectionner une couleur.
+    date : pour accueillir une date, certains navigateurs affichent un calendrier.
+    time : pour accueillir un horaire, certains navigateurs affichent un sélecteur.
+    file :  pour accueillir un champ afin d'uploader un fichier.
+    search : pour permettre aux internautes de réaliser une recherche par mot-clé.
+
+et bien d'autres encore...
+Le type input number
+
+Le type number permettra de "forcer" l'utilisateur à écrire des nombres. 
+
+<p>
+ <label>Age  </label>
+ <input type="number" />
+</p>
+<p>
+  <label>Age  </label>
+ <input type="number" min="18" max="120" />
+</p>
+
+Le type input number avec min et max
+
+On peut observer que si l'utilisateur tente de valider sans avoir saisi un nombre suffisant, un message d'erreur l'invite immédiatement à revoir sa saisie en lui fournissant une explication.
+
+On remarque que le champ est fourni éventuellement avec des petits boutons à droite que les utilisateurs peuvent utiliser pour augmenter ou diminuer le chiffre. L'incrément à chaque clic pourra être défini avec l'attribut step :
+
+<p>
+ <label>Age  </label>
+  <input type="number" min="18" max="120" step="2"  />
+</p>
+
+fera avancer l'âge de deux en deux.
+Le type input url pour les adresses web
+
+Internet s'étant démocratisé, il n'est maintenant pas rare de voir des formulaires qui demande l'adresse du site web comme information d'utilisateur. L'élément input pourra alors utiliser le type url pour contraindre l'utilisateur à saisir une url valide comprenant entre autre http://
+
+<p>
+     <label>Site web  </label>
+     <input type="url"  placeholder="http://fr.flossmanuals.net"/>
+   </p>
+   <p>
+     <label>Site web  </label>
+     <input type="url" placeholder="http://fr.flossmanuals.net"/>
+  </p>
+
+Demander la saisie d'une adresse email
+
+ 
+Proposer le choix d'une couleur
+
+HTML5 propose une interface par défaut pour le choix de couleur directement dans le formulaire. Si l'aspect de cet outil sera différent selon les navigateurs, cela simplifie cependant grandement la tâche.
+
+On peut utiliser l'outil par défaut. Dans ce cas, l'utilisateur pourra choisir la couleur sans limitation.
+
+On peut laisser le choix de la couleur mais placer une couleur par défaut avec l'attribut global value.
+
+On peut aussi définir une gamme de couleur grâce à une datalist relié à l'input.
+
+<p>
+     Dans quelle couleur souhaitez-vous ce produit ? <br/>
+     <input type="color" list="colors" value="#00ff00"/>
+     <datalist id="colors">
+         <option value="#ff0000" label="0"/>
+         <option value="#00ff00" />
+         <option value="#0000ff" />
+      </datalist>
+</p>
+
+Slider (glissière)
+
+ <p>
+     Sur une gamme de 0 à 100, appréciez vous nos produits ?<br/>
+     <input type="range"  min="0" max="100" step="10" value="0"/>
+   </p>
+   <p>
+     Sur une gamme de 0 à 100, appréciez vous nos produits ?<br/>
+     <input type="range"  min="0" max="100" step="10" value="50"/>
+   </p>
+
+Le résultat est ici de Firefox. Dans Chrome le rendu peut être un peu différent :
+
+Il est possible d'utiliser une datalist pour montrer les différentes étapes. Dans ce cas, la datalist devra avoir un id unique et il faudra ajouter l'attribut list à l'input et lui passer la valeur id de la liste.
+
+Sur une gamme de 0 à 100, appréciez vous nos produits ?
+
+<input type="range" list="steps" min="0" max="100" step="10" value="50">
+ <datalist id="steps">
+   <option value="0" label="0"/>
+   <option value="50" />
+   <option value="100" />
+ </datalist>
+</input> 
+
+ 
+
+Chaque option de la liste sera affiché en fonction de sa valeur.
+
+Attention cependant à suivre la règle éditée en step : si vous avez un step de 10 le navigateur refusera certainement d'afficher une option à 25 qui n'entre pas dans ce cas.
+
+L'attribut label des options de liste devrait permettre d'afficher du texte. Il semble encore trop peu supporté.
+Saisie de dates et d'heures
+
+L'interface d'aide à la saisir de date se fait par le biais du type date. il affiche alors un champ de saisie séparé en trois parties pour jour, mois et année ainsi qu'un utilisateur de type calendrier qui permet de sélectionner la date plus visuellement.
+
+   <p>
+     Quelle est votre date de naissance ?<br/>
+     <input type="date" />
+   </p>
+
+Le type week et month permettent respectivement d'accéder à des modes d'affichages caler sur ces distinctions temporelles.
+
+La même chose est possible pour définir des heures avec le type time :
+
+  <p>
+     Heure de Livraison souhaitée<br/>
+     <input type="time" />
+   </p>
+
+Donner le choix à l'utilisateur
+Le type checkbox
+
+Le type checkbox permettra à l'utilisateur de cocher une case unique pour valider un choix qui n'a que 2 possibilités (vrai ou faux, oui ou non...)
+
+<input type="checkbox" required /> 
+
+L'utilisation de l'attribut checked permet de spécifier que le champ sera activé par défaut.
+radio
+
+Le type radio sera plus complet en laissant un choix multiple à l'utilisateur :
+
+<input type="radio" name="sexe" value="F"/> 
+
+<input type="radio" name="sexe" value="M"/> 
+
+<input type="radio" name="sexe" value="3"/> 
+
+Remarquez que pour les groupes de radio, il est important qu'ils partagent le même attribut name.
+
+L'utilisation de l'attribut checked permet de spécifier que le champ sera activé par défaut.
+Liste déroulante
+
+Lorsque le nombre d'option s'accroît, il devient difficile d'utiliser des radio. Ils occupent trop de place dans la page en particulier si le formulaire demande beaucoup d'informations. Dans ce cas, produire une liste est plus économe en espace.
+
+    <select>
+       <option>option1</option>
+       <option>option2</option>
+     </select>
+
+L'utilisation de l'attribut selectedpermet de spécifier la valeur qui sera activée par défaut.
+datalist
+
+ 
+Assistance et vérification de la saisie
+
+La vérification des informations saisie a longtemps été un casse-tête pour les développeurs de site qui ont longtemps cherché la solution parfaite. Le W3C a donc décidé de normaliser la procédure pour assurer une plus grande fiabilité générale et éviter à chaque développeur de reperdre du temps à redévelopper une fonctionnalité aussi courante.
+Placeholder
+
+L'attribut placeholder permet de saisir une donnée d'exemple pour aider l'utilisateur à comprendre ce qu'il doit écrire. Il pourra en général automatiquement apparaître dans le champ et disparaîtra lorsque l'utilisateur cliquera dans le champ pour saisir ses propres informations.
+
+Le placeholder ne fait pas partie du contenu du champ. Il ne remplace donc ni la valeur saisie, ni une éventuelle valeur par défait définie par l'attribut value.
+
+<input type="text" placeholder="NOM DE FAMILLE" />
+
+On peut voir dans le rendu que le texte est en général écrit en grisé par le navigateur et qu'il disparaît dès que l'utilisateur commence à y saisir quelque chose.
+
+En lien et place du placeholder, il serait aussi évidemment possible d'écrire avant ou après le champs le texte correspondant à l'information souhaitée. L'avantage sera évidemment que le texte simplement saisi soit compatible avec les anciens navigateurs. Il est simplement possible d'écrire le texte dans une balise p ou mieux utiliser la balise label comme vue précédemment.
+
+<form>
+   <p><label>Nom : </label></p>
+   <p><label>Prénom : </label></p>
+ </form>
+
+Champs obligatoires
+
+Pour signaler les champs obligatoires, on a longtemps eu le droit aux étoiles mignonettes placées auprès du champ. Si cette méthode peut toujours être utilisée offre le défaut de reposer sur des tests personnalisés pour vérifier si le champ a été renseigné. Grâce à l'attribut required, le navigateur va tester automatiquement que le champ a été rempli avant d'envoyer le contenu du formulaire et éventuellement mettre en avant le champ si ce n'est pas le cas. Par ailleurs, l'aspect du champ requis peut être modifié en css avec la pseudo-propriété :required.
+
+<input type="text" required />
+
+Required est un attribut booléen aussi, s'il est omis le champ est considéré comme facultatif, c'est-à-dire n'étant pas un champ absolument nécessaire à renseigner par l'internaute.
+
+Dans le cas suivant, le paramètre requis est sur un bouton checkbox d'acceptation.
+
+<label>J'accepte </label>
+<input type="checkbox" required /> 
+
+L'attribut HTML5 required en action
+
+Dans le cas des listes select et des radiobox, il suffira de mettre un required sur l'un des éléments pour activer la détection. Il faut bien que le champ soit activé (non disabled) et qu'aucune valeur par défaut ne soit sélectionnée avec checked ou selected.
+
+<fieldset name="" >
+   <legend>Sexe</legend>
+   <p>
+  <label>M </label>
+ <input type="radio" name="sexe" id="sexeM" required />
+     <label>F </label>
+ <input type="radio" name="sexe" id="sexeF" />
+   </p>
+ </fieldset>
+
+Required en action sur des radiobox
+
+Remarquez au passage que le message qui apparaît est légèrement différent de celui qui apparaissait dans l'exemple précédent. 
+Validation des données
+
+La validation des contenus saisis par l'utilisateur est sans doute la plus complexe, mais aussi la plus utile. HTML intègre le moyen de valider que ce que la personne a saisi correspond à notre attente. Cela sans utiliser ni javascript, ni PHP. Cette solution est plus simple et plus rapide.
+
+La validation des données est considérée comme activée par défaut sur une page pour les champs qui mentionnent les motifs. Pour exclure la validation, il sera possible d'utiliser l'attribut novalidate sur la balise form.</p><br>
+
+				<h4 id="ancre10">Afficher son document en HTML 5 dans un navigateur</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+				
+				<h4 id="ancre11">Les commentaires</h4>
+				<p>Le commentaire HTML est introduit dans une balise < !-- commentaire -- > : le texte renseigné s'affiche dans le code, mais il n'est pas visible par le visiteur de la page web. C'est un moyen utile au développeur pour annoter son code, pour travailler dessus sans affecter l'affichage de la page web, pour garder en mémoire un historique des modifications ou encore pour isoler des lignes de code suspectes. Lorsque le site est développé dans le cadre d'un travail collaboratif, les commentaires HTML sont particulièrement utiles.</p><br>
+            <p> <h3 style="color: darkcyan;">Exemple de commentaire HTML</h3>
+
+            Dans cet exemple, le développeur souhaite appliquer une mise en forme cohérente, pour faciliter la lecture et la rendre agréable. Il insère un commentaire pour se rappeler qu'à chaque élément « recette », le premier mot des étapes de la recette doit être mis en gras. Le cas échéant, son annotation est une information qui pourra en outre renseigner le développeur qui prend sa suite pour coder la page web. En tout état de cause, le commentaire HTML dûment inséré n'apparaît pas dans le texte de la page web.</p> <br>
+            <p><h3 style="color: darkcyan;">Quel est l'intérêt des commentaires HTML ?</h3>
+            Les commentaires HTML, invisibles des visiteurs de la page web, s'affichent dans le code à destination de tous les développeurs amenés à travailler dessus. Insérer un commentaire HTML présente plusieurs intérêts :<br>
+
+            Au moment de développer le site web : le commentaire HTML sert de rappel ou d'explication, pour clarifier le code et faciliter ainsi le travail du développeur. Exemple : le développeur laisse une note pour se rappeler d'insérer les liens HTML sur les images et non sur le texte ; si un autre développeur prend le relais, il comprend la stratégie et l'applique. <br>Pour résoudre un bug : le commentaire HTML permet de bloquer temporairement l'affichage d'une ligne de code par le navigateur, pour identifier d'où provient le bug sans supprimer le code. Les balises de commentaire sont introduites successivement au début et à la fin de chaque ligne de code : le développeur observe les résultats successifs affichés sur le navigateur, jusqu'à identifier le bug pour le résoudre. <br>
+          Pour tester l'ergonomie d'une page web : en utilisant la balise de commentaire HTML, le développeur peut activer et désactiver du code à son gré. La balise permet également de mettre en attente une ligne de code, la retirer ultérieurement débloque la ligne de code pour afficher le contenu sur le navigateur. Exemple : le développeur veut tester deux emplacements pour un bouton d'appel à l'action ; il introduit deux lignes de code à cet effet, et en place une entre les balises de commentaires HTML pour n'afficher qu'un bouton sur la page web ; il mesure le taux de conversion sur ce bouton, puis le désactive et active l'autre en retirant ses balises de commentaire ; il mesure le nouveau taux de conversion, et choisit le bouton le plus performant. <br>
+            Lors de la refonte du site web : le développeur qui restructure le site web peut décider de mettre en commentaire des portions de l'ancienne version du code, dans l'hypothèse où elles devraient être restaurées ultérieurement. Ces portions ne s'affichent pas dans le navigateur, mais restent visibles sur le code source de la page web.
+               </p>
+				
+				<h4 id="ancre12">Les liens internes et externes</h4>
+				<p>En règle générale, un lien vers une autre section de la même page web ou vers une autre page du même site web est considéré comme interne, tandis qu’un lien vers une page n’appartenant pas au même site web est considéré comme externe. <br>
+             <h3 style="color: darkcyan;">Exceptions</h3>
+             Cependant, ces définitions trouvent leurs limites lorsque la même organisation exploite plusieurs domaines complémentaires, par exemple lorsqu'un site web marchand est utilisé pour permettre l’achat d’articles présentés sur un site web « vitrine ». Dans ces cas, les liens qui sont « externes » selon la définition ci-dessus peuvent être considérés comme « internes » selon la situation. En tenant compte de ce cas particulier, un lien interne est un lien qui pointe vers une page web ou vers une ressource située dans le même répertoire racine4. <br>
+
+             De même, les liens qui semblent être « internes » à première vue sont en fait « externes » dans de nombreux cas, par exemple dans le cas d'un lien entre des sous-domaines d'un domaine principal qui ne sont pas exploités par la ou les mêmes personnes. Par exemple, une plateforme de blogs, telle que WordPress, Blogger ou Tumblr, héberge des milliers de blogs différents sur des sous-domaines totalement indépendants les uns des autres et dont les auteurs sont en grande majorité des personnes différentes et n’ayant aucun lien entre eux. Dans ce cas de figure, on pourrait considérer un lien comme « interne » seulement s'il est dirigé vers le même sous-domaine, et non vers d’autres sous-domaines du domaine principal. <br>
+             <h3 style="color: darkcyan;">Utilité</h3>
+             Les deux types de liens internes et externes aident les utilisateurs à naviguer sur Internet et permettent d’augmenter la valeur d’un site web aux yeux des moteurs de recherche (SEO). Le maillage de liens internes permet plus spécifiquement de définir l’organisation et la structure du site web, et donne ainsi l’occasion aux moteurs de recherche de mieux comprendre leur structure et l’importance donnée à certaines pages </p><br>
+				
+				<h4 id="ancre13">Les listes imbriquées</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+
+
+
+
+			</div>
+		</div>
+		
+
+	</body>
+</main>
+
+</html>
